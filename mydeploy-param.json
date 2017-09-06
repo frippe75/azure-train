@@ -1,0 +1,54 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "local"
+        },
+        "virtualMachineName": {
+            "value": "FrontEndVM1"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_D1_v2"
+        },
+        "adminUsername": {
+            "value": "tenantadmin"
+        },
+        "virtualNetworkName": {
+            "value": "hpe-rg-05-vnet"
+        },
+        "networkInterfaceName": {
+            "value": "frontendvm164"
+        },
+        "networkSecurityGroupName": {
+            "value": "FrontEndVM1-nsg"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "availabilitySetName": {
+            "value": "hpe-as-05"
+        },
+        "storageAccountName": {
+            "value": "hperg05disks893"
+        },
+        "storageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "hperg01diag330"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "/subscriptions/27d95544-f047-4b1b-9bbe-89876570746d/resourcegroups/hpe-rg-01/providers/Microsoft.Storage/storageaccounts/hperg01diag330"
+        },
+        "subnetName": {
+            "value": "Frontend"
+        },
+        "publicIpAddressName": {
+            "value": "FrontEndVM1-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        }
+    }
+}
