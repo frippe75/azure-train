@@ -23,9 +23,6 @@
         "networkSecurityGroupName": {
             "value": "FrontEndVM1-nsg"
         },
-        "adminPassword": {
-            "value": null
-        },
         "availabilitySetName": {
             "value": "hpe-as-05"
         },
