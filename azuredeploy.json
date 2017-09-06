@@ -4,12 +4,14 @@
   "parameters": {
     "adminUsername": {
       "type": "string",
+	  "defaultValue": "tenantadmin",
       "metadata": {
         "description": "Username for the Virtual Machine."
       }
     },
     "adminPassword": {
       "type": "securestring",
+	  "defaultValue": "01000000d08c9ddf0115d1118c7a00c04fc297eb01000000b38b30ab8a9a9a4092cef001981147330000000002000000000003660000c000000010000000f4b3246f7bc93c19f475220be3ba8f540000000004800000a0000000100000001930045bccac18f76d1775fa595b30f228000000cc2f69b446f1d794fa59b08f8a2bd8c3178797c828da14546513eb6dc72ad9de7a3d6ebf4d21f3bb1400000033ec74cd6ffc7d3467fdfe46f2f3f1bc01fa315f",
       "metadata": {
         "description": "Password for the Virtual Machine."
       }
